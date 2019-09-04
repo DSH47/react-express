@@ -1,0 +1,27 @@
+<view class='container'>
+
+  <view class='box' bindtap='toNavigate'>
+    1-1，打开新页面navigateTo
+  </view>
+
+  <navigator class='box' url='../05page/05page' open-type="navigateTo">
+    1-2，打开新页面navigator
+  </navigator>
+
+  <view class='box' bindtap='redirectTo'>
+    2-1，页面重定向
+  </view>
+
+  <navigator class='box' url='../05page/05page' open-type="redirectTo">
+    2-2，页面重定向
+  </navigator>
+
+  <view class='box' bindtap='switchTab'>
+    3-1，Tab 切换
+  </view>
+
+  <navigator class='box'  url='../01page/01page' open-type="switchTab">
+     3-2，Tab 切换
+  </navigator>
+
+</view>

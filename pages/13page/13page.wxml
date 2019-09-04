@@ -1,0 +1,22 @@
+<view class='container'>
+
+  <view class='box' bindtap='toNavigate'>
+    一，全局变量-id={{id}}
+  </view>
+
+  <view class='box' bindtap='storage'>
+    二，setStorage
+  </view>
+
+    <view class='box' bindtap='getStorag'>
+    三，getStorag
+  </view>
+
+    <view class='box' bindtap='removeStorage'>
+   四，removeStorage
+  </view>
+
+      <view class='box' bindtap='clearStorage'>
+  五，clearStorage
+  </view>
+</view>

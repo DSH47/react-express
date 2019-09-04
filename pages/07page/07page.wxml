@@ -1,0 +1,7 @@
+<import src="item.wxml" />
+<template is="msgItem" data="{{...item}}" />
+
+<!-- index.wxml -->
+<include src="header.wxml" />
+<view>body</view>
+<include src="footer.wxml" />

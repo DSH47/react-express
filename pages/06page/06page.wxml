@@ -1,0 +1,19 @@
+<view class='context'>
+
+  <view class='item' wx:if= "{{index!=0}}" wx:for="{{douban}}" wx:key="key">
+    <image class='icon' src='{{item.images.small}}'>
+    </image>
+
+    <view class='itemContet'>
+
+      <view class='title'>{{item.title}}</view>
+
+      <view class='genresBox'>
+        <view class='genresTitle'>
+          电影类型:
+        </view>
+        <view class='genresContext'>{{item.genres}}</view>
+      </view>
+    </view>
+  </view>
+</view>

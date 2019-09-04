@@ -1,0 +1,9 @@
+<view class='container'>
+
+  <view class='box' bindtap='onClick'>
+    <view class='title'>
+      点击事件
+    </view>
+  </view>
+
+</view>

@@ -1,0 +1,27 @@
+/* pages/05page/05page.wxss */
+
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 750rpx;
+  align-items: center;
+}
+
+.box {
+  margin-top: 200rpx;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 700rpx;
+  height: 80rpx;
+  padding: 10rpx;
+  border: 1rpx solid #333;
+  border-radius: 30rpx;
+  background:  blueviolet;
+  justify-content: center;
+}
+
+.title {
+  color: #ffffff;
+  font-size: 35rpx;
+}

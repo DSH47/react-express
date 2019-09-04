@@ -1,0 +1,14 @@
+<view class='container'>
+
+  <view class='box' bindtap='phoneCall'>
+     1，拨打电话
+  </view>
+
+  <view class='box' bindtap='locationMap'>
+     2，地图功能
+  </view>
+
+    <view class='box' bindtap='scanCode'>
+     3，扫码
+  </view>
+</view>

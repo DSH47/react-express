@@ -1,0 +1,65 @@
+<view class='container'>
+
+  <view class='box'>
+    <view class='title'>
+      1，简单绑定：
+    </view>
+    <view class='content'>
+      {{msg}}
+    </view>
+  </view>
+
+    <view class='box'>
+    <view class='title'>
+      2，组件属性：
+    </view>
+    <view class='con{{attribute}}'>
+      组件属性
+    </view>
+  </view>
+
+    <view class='box'>
+    <view class='title'>
+      3，控制属性：
+    </view>
+    <view wx:if="{{condition}}" class='content'>
+      控制属性显示
+    </view>
+  </view>
+
+    <view class='box'>
+    <view class='title'>
+      4，关键字：
+    </view>
+    <view class='content'>
+     <checkbox checked="{{true}}"></checkbox>
+    </view>
+  </view>
+
+  <view class='box'>
+    <view class='title'>
+      5，三元运算：
+    </view>
+    <view class='conten{{true ? "t" : "k"}}'>
+      三元运算
+    </view>
+  </view>
+  
+  <view class='box'>
+    <view class='title'>
+      6，算数运算：
+    </view>
+    <view class='content'>
+      {{5+6}}
+    </view>
+  </view>
+  
+    <view class='box'>
+    <view class='title'>
+      7，字符串运算：
+    </view>
+    <view class='content'>
+       {{"你好："+msg}}
+    </view>
+  </view>
+</view>

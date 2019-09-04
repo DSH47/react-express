@@ -1,0 +1,101 @@
+<view class='container'>
+
+  <view class='box'>
+    <view class='title'>
+      1，view视图：
+    </view>
+    <view class='content'>
+      view 显示文本信息
+    </view>
+  </view>
+
+  <view class='box'>
+    <view class='title'>
+      2，image组件：
+    </view>
+    <view class='content'>
+      <image class='img' src='https://developers.weixin.qq.com/miniprogram/dev/image/cat/0.jpg?t=19010822'></image>
+    </view>
+  </view>
+
+  <view class='box'>
+    <view class='title'>
+      3，progress组件：
+    </view>
+    <view class='content'>
+      <progress percent="20" show-info />
+      <progress percent="40" stroke-width="12" />
+      <progress percent="60" color="pink" />
+      <progress percent="80" active />
+    </view>
+  </view>
+
+  <view class='box'>
+    <view class='title'>
+      4，loading提示框：
+    </view>
+    <view class='content' bindtap='showloading'>
+      点击展示提示框
+    </view>
+  </view>
+
+
+  <view class='box'>
+    <view class='title'>
+      5，模态对话框：
+    </view>
+    <view class='content' bindtap='showModal'>
+      点击展示模态对话框
+    </view>
+  </view>
+
+  <view class='box'>
+    <view class='title'>
+      6,滑块视图：
+    </view>
+    <view class='content'>
+      <swiper indicator-dots='true' autoplay='true' duration='{{500}}' interval='{{2000}}'>
+
+        <view wx:for='{{imgUrls}}'>
+
+          <swiper-item>
+            <image src='{{item}}'></image>
+          </swiper-item>
+        </view>
+
+      </swiper>
+    </view>
+  </view>
+
+
+  <view class='box'>
+    <view class='title'>
+      7：
+    </view>
+    <view class='content' bindtap='showloading'>
+
+      <scroll-view style='width:600rpx;white-space: nowrap;' scroll-x="true">
+        <view style="background: red; width: 200px; height: 100px; display: inline-block">滚动视图区域-横向</view>
+        <view style="background: green; width: 200px; height: 100px; display: inline-block">滚动视图区域-横向</view>
+        <view style="background: blue; width: 200px; height: 100px; display: inline-block">滚动视图区域-横向</view>
+        <view style="background: yellow; width: 200px; height: 100px; display: inline-block">滚动视图区域-横向</view>
+      </scroll-view>
+    </view>
+  </view>
+
+  
+    <view class='box'>
+    <view class='title'>
+      8：纵向
+    </view>
+    <view class='content' bindtap='showloading'>
+
+      <scroll-view style='width:300rpx; height: 100px; ' scroll-y="true">
+        <view style="background: red; width: 200px; height: 100px; display: inline-block">滚动视图区域-纵向</view>
+        <view style="background: green; width: 200px; height: 100px; display: inline-block">滚动视图区域-纵向</view>
+        <view style="background: blue; width: 200px; height: 100px; display: inline-block">滚动视图区域-纵向</view>
+        <view style="background: yellow; width: 200px; height: 100px; display: inline-block">滚动视图区域-纵向</view>
+      </scroll-view>
+    </view>
+  </view>
+</view>

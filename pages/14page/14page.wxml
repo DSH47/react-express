@@ -1,0 +1,19 @@
+<view class='container'>
+
+  <view class='box' bindtap='chooseImage'>
+    <view>一，本地相册选择图片或使用相机拍照</view>
+    <image wx:if="{{tempFilePaths!=null}}" class='img' src="{{tempFilePaths}}"></image>
+  </view>
+
+  <view class='box' bindtap='previewImage'>
+    二，预览图片
+  </view>
+
+
+  <view class='box' bindtap='getImageInfo'>
+    <view>三，获取图片信息</view>
+    <view wx:if="{{width!=null}}">图片的宽度是：{{width}}</view>
+    <view wx:if="{{height!=null}}">图片的高度是：{{height}}</view>
+  </view>
+
+</view>

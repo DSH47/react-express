@@ -1,0 +1,22 @@
+/* pages/05page/05page.wxss */
+
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 750rpx;
+  align-items: center;
+}
+
+.box {
+  margin-top: 10rpx;
+  display: flex;
+  flex-direction: column;
+  width: 700rpx;
+  padding: 10rpx;
+  border: 1rpx solid #333;
+}
+
+.img{
+  width: 400rpx;
+  height: 300rpx;
+}
