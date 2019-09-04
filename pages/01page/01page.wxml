@@ -22,67 +22,29 @@
 
     <swiper-item>
 
-      <view class="content">
-        <view class="textbook">
-          <view class="txtTop">微积分是最适合中国大多数学生顺利学出来的一门理科课。</view>
-          <view class="txtBottom">更新 一周前</view>
+      <view class="content" wx:for="{{one}}" wx:key="id">
+        <view class="textbook" wx:for="{{item.two}}" wx:for-item="two" wx:key="id">
+          <view class="txtTop">{{two.title}}</view>
+          <view class="txtBottom"> {{two.txt}}</view>
         </view>
-        <image class="img" src="https://upload-images.jianshu.io/upload_images/15721919-96553148cc3e6dea.jpg?imageMogr2/auto-orient/strip|imageView2/2/w/782/format/webp"></image>
+        <image class="img" src='{{item.images}}'></image>
+
       </view>
-      <view class="content">
-        <view class="textbook">
-          <view class="txtTop">微积分(Calculus)是高等数学中研究函数的微分、积分以及有关概念和应用的数学分支。</view>
-          <view class="txtBottom">更新 两周前</view>
-        </view>
-        <image class="img" src="http://ask.qcloudimg.com/http-save/yehe-1669339/mrttv45xje.jpeg"></image>
-      </view>
-      <view class="content">
-        <view class="textbook">
-          <view class="txtTop">AP考试的成绩使用5分制，考生可以获得1，2，3，4或者5分,一般三分或三分以上的成绩可以在大学换取学分.</view>
-          <view class="txtBottom">更新 三周前</view>
-        </view>
-        <image class="img" src="https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=4037085886,4011589942&fm=26&gp=0.jpg"></image>
-      </view>
-       <view class="content">
-        <view class="textbook">
-          <view class="txtTop">AP微积分是由美国大学理事会（The College Board）提供的在高中授课的大学课程。</view>
-          <view class="txtBottom">更新 四周前</view>
-        </view>
-        <image class="img" src="https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=4071605530,339009200&fm=11&gp=0.jpg"></image>
-      </view>
+
 
     </swiper-item>
 
     <swiper-item>
 
-     <view class="content">
-        <view class="textbook">
-          <view class="txtTop">微积分分为四个部分,考试时间相对比较充裕，考生只要认真备考，就可以完成题目</view>
-          <view class="txtBottom">更新 一周前</view>
+      <view class="content" wx:for="{{apti}}" wx:key="id">
+        <view class="textbook" wx:for="{{item.two}}" wx:for-item="two" wx:key="id">
+          <view class="txtTop">{{two.title}}</view>
+          <view class="txtBottom"> {{two.txt}}</view>
         </view>
-        <image class="img" src="http://img95.699pic.com/photo/50040/6494.jpg_wh300.jpg"></image>
+        <image class="img" src='{{item.images}}'></image>
+
       </view>
-<view class="content">
-        <view class="textbook">
-          <view class="txtTop">留学应该提前规划好，是充分准备后的行动，同学们应该早一点预估自己想去怎样的学校。</view>
-          <view class="txtBottom">更新 两周前</view>
-        </view>
-        <image class="img" src="https://f10.baidu.com/it/u=2202493337,3369188385&fm=72"></image>
-      </view>
-      <view class="content">
-        <view class="textbook">
-          <view class="txtTop">3月中旬开始练习真题，熟练出题形式和加深对细节知识点的掌握深度。</view>
-          <view class="txtBottom">更新 三周前</view>
-        </view>
-        <image class="img" src="http://5b0988e595225.cdn.sohucs.com/images/20181009/d2c854a7ad1a46d2952885e222c24644.jpg"></image>
-      </view>
-      <view class="content">
-        <view class="textbook">
-          <view class="txtTop">理解微积分的“基本思想”——“极限”至关重要，也是直接通往微分积分世界的“九阴真经”。</view>
-          <view class="txtBottom">更新 四周前</view>
-        </view>
-        <image class="img" src="http://img95.699pic.com/photo/50021/0579.jpg_wh300.jpg"></image>
-      </view>
+
     </swiper-item>
 
   </swiper>
