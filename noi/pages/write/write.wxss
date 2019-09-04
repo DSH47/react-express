@@ -1,0 +1,64 @@
+/* pages/write/write.wxss */
+.container{
+  width: 750rpx;
+}
+.iconPng{
+  width: 700rpx;
+  height: 70rpx;
+  display: flex; 
+  flex-direction: row;
+	justify-content: flex-end; 
+}
+.headerTxt{
+  font-size: 55rpx;
+  font-weight: 700;
+}
+.search{
+  width: 65rpx;
+  height: 65rpx;
+}
+.photograph{
+  width: 60rpx;
+  height: 60rpx;
+  margin-left: 40rpx;
+}
+.header{
+  width: 750rpx;
+  height: 70rpx;
+  margin-top: 30rpx;
+  border-bottom: 3rpx solid #F9F9FC;
+}
+.headtxt{
+  color: #9C9C9C;
+  padding: 0rpx 30rpx;
+}
+.content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.middleIcon{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center ;
+  width: 650rpx;
+  height: 200rpx;
+  background-color: floralwhite;
+}
+.icon{
+  width: 100rpx;
+  height: 100rpx;
+  margin-left: 15rpx;
+}
+.print{
+  width: 150rpx;
+  height: 150rpx;
+  display: flex;
+  flex-direction: column;
+}
+.txt{
+  font-size: 30rpx;
+  color: #646464;
+  margin-top: 10rpx;
+}
